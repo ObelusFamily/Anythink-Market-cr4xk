@@ -4,6 +4,8 @@ import React from "react";
 
 const ItemMeta = (props) => {
   const item = props.item;
+console.log(item);
+
   return (
     <div className="d-flex flex-row align-items-center pt-2">
       <Link to={`/@${item.seller.username}`}>

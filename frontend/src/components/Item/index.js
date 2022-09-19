@@ -71,6 +71,7 @@ class Item extends React.Component {
               })}
             </div>
           </div>
+          
           <div className="row bg-light-gray p-4">
             <CommentContainer
               comments={this.props.comments || []}
